@@ -1,0 +1,10 @@
+de:
+  classes:
+    ecm/translations/backend/engine: Übersetzungen
+  activerecord:
+    scopes:
+      is_proc: Prozeduren
+      not_translated: Ohne Übersetzung
+  routes:
+    mount:
+      ecm_translations_backend: '/backend/uebersetzungen'

@@ -1,0 +1,24 @@
+defaults:
+  permissions:
+    - ecm/translations/backend/engine
+    - ecm/translations/translation/index
+    - ecm/translations/translation/show
+    - ecm/translations/translation/new
+    - ecm/translations/translation/create
+    - ecm/translations/translation/edit
+    - ecm/translations/translation/update
+    - ecm/translations/translation/destroy
+  roles:
+    ecm/translations/administrator:
+      - ecm/translations/backend/engine
+      - ecm/translations/translation/index
+      - ecm/translations/translation/show
+      - ecm/translations/translation/new
+      - ecm/translations/translation/create
+      - ecm/translations/translation/edit
+      - ecm/translations/translation/update
+      - ecm/translations/translation/destroy
+    ecm/translations/reviewer:
+      - ecm/translations/backend/engine
+      - ecm/translations/translation/index
+      - ecm/translations/translation/show

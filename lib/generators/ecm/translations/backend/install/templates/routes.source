@@ -1,0 +1,4 @@
+
+  localized do
+    mount Ecm::Translations::Backend::Engine => '/backend/ecm/translations'
+  end
