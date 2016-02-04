@@ -1,4 +1,4 @@
-class Ecm::Translations::Backend::TranslationsController < Itsf::Backend::BaseController
+class Ecm::Translations::Backend::TranslationsController < Itsf::Backend::Resource::BaseController
   def self.resource_class
     # Set the resource class here.
     #
