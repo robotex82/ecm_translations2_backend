@@ -4,7 +4,7 @@ module Ecm
       class Engine < ::Rails::Engine
         isolate_namespace Ecm::Translations::Backend
 
-        initializer "ecm_translations_backend.asset_pipeline" do |app|
+        initializer 'ecm_translations_backend.asset_pipeline' do |app|
           app.config.assets.precompile << 'ecm_translations_backend.js'
           app.config.assets.precompile << 'ecm_translations_backend.css'
         end

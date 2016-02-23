@@ -22,13 +22,13 @@ class Ecm::Translations::Backend::TranslationsController < Itsf::Backend::Resour
 
   def permitted_params
     # Set the allowed params, for your create and update methods.
-    # 
+    #
     # Example: params
     #            .require(:ecm_translations_translation)
     #              .permit(:title, :body)
-    # 
+    #
     params
       .require(:ecm_translations_translation)
-        .permit(:locale, :key, :value, :interpolations, :is_proc)
+      .permit(:locale, :key, :value, :interpolations, :is_proc)
   end
 end
