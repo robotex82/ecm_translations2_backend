@@ -7,7 +7,8 @@ Ecm::Translations::Backend.configure do |config|
   #
   config.registered_controllers = lambda {
     [
-      Ecm::Translations::Backend::TranslationsController
+      Ecm::Translations::Backend::TranslationsController,
+      Ecm::Translations::Backend::CurrentTranslationsController
     ]
   }
 

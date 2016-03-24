@@ -7,4 +7,4 @@ de:
       not_translated: Ohne Übersetzung
   routes:
     mount:
-      ecm_translations_backend: '/backend/uebersetzungen'
+      ecm_translations_backend: '/backend/translations'
