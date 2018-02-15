@@ -6,5 +6,4 @@ en:
       is_proc: Procedures
       not_translated: Without translation
   routes:
-    mount:
-      ecm_translations_backend: '/backend/translations'
+    ecm-translations-backend-engine: 'translations'
