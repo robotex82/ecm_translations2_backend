@@ -1,4 +1,4 @@
 
   localized do
-    mount Ecm::Translations::Backend::Engine, at: '/backend/ecm/translations'
+    mount Ecm::Translations::Backend::Engine, at: '/backend/ecm-translations-backend-engine'
   end
